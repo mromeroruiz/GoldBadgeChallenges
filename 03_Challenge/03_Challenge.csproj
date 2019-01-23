@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CEFCD9B1-3410-44B3-8577-618CFAB47E51}</ProjectGuid>
+    <ProjectGuid>{5B151E5D-D30B-49D5-8376-2F98B00C1239}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_Challenge</RootNamespace>
-    <AssemblyName>01_Challenge</AssemblyName>
+    <RootNamespace>_03_Challenge</RootNamespace>
+    <AssemblyName>03_Challenge</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Meal.cs" />
-    <Compile Include="MealRepository.cs" />
+    <Compile Include="Outing.cs" />
+    <Compile Include="OutingRepo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
