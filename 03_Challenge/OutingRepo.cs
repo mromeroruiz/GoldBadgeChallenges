@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _03_Challenge
 {
-    class OutingRepo
+    public class OutingRepo
     {
         List<Outing> listOfOutings = new List<Outing>();
         public void AddOuting (Outing addOuting)
