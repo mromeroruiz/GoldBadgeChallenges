@@ -65,8 +65,7 @@ namespace _06_Challenge
 
         public void RemoveCar(int carID, CarType type)
         {
-            //List<Vehicle> allVehicles = new List<Vehicle>();
-            //allVehicles.Concat(electric).Concat(hybrid).Concat(gas);
+            
 
             if(type == CarType.Electric)
             {
@@ -75,20 +74,11 @@ namespace _06_Challenge
                     if(car.CarID == carID && car.Type == type)
                     {
                         RemoveElecCar(car);
+                        break;
                     }
                 }
             }
-            //foreach (Vehicle car in allVehicles)
-            //{
-            //    if (car.CarID == carID && car.Type == type)
-            //    {
-
-            //        allVehicles.Remove(car);
-            //        break;
-                   
-            //    }
-                
-            //}
+           
             numberOfCars--;
 
         }
